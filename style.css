@@ -1,12 +1,23 @@
 body {
 	font-family: 'Quicksand', sans-serif;
-	text-align: center;
+	text-align: center;           
+	animation: fade-in-body 1s;
+}
+
+@keyframes fade-in-body {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
 }
 
 header {
 	padding-top: 1rem;
 	font-size: 0.8rem;
-	color: #202020;
+    color: #202020;
 }
 
 #ava {
@@ -25,8 +36,45 @@ header {
 	padding-bottom: 0.2rem;
 }
 
+.link-text:hover {
+	background-color: #7A7A7A;
+	transition: 200ms;
+}
+
 .link-text {
     font-size: 1.5rem;
     text-decoration: none;
     color: #202020;
+    border-radius: 0.5rem;
+}
+
+.contact-me {
+	border-radius: 30rem;
+	margin: 0 auto;
+	height: 3rem;
+	width: 15rem;
+ 	background: linear-gradient(45deg, #67d5eb, #32aec7);
+  	background-size: 300% 300%;
+  	animation-name: grad;
+  	animation-duration: 4s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+
+
+@keyframes grad {
+  0% {
+    background-position: 0% 100%;
+  }
+  20% {
+    background-position: 100% 0%;
+  }
+  100% {
+  	background-position: 0% 100%
+  }
+}
+
+#contact-me {
+	vertical-align: middle;
+	line-height: 3rem;
 }
