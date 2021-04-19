@@ -1,4 +1,5 @@
 body {
+	font-size: 100%;
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;           
 	animation: fade-in-body 1s;
@@ -15,25 +16,25 @@ body {
 }
 
 header {
-	padding-top: 1rem;
-	font-size: 0.8rem;
+	padding-top: 1%;
+	font-size: 90%;
     color: #202020;
 }
 
 #ava {
 	border-radius: 50%;
-	width: 20rem;
-	height: 20rem;	
+	width: 20em;
+	height: 20em;	
 }
 
 .logo {
-	width: 4rem;
-	height: 4rem;
-	margin-bottom: -1.5rem;
+	width: 4em;
+	height: 4em;
+	margin-bottom: -1.5em;
 }
 
 .link-block {
-	padding-bottom: 0.2rem;
+	padding-bottom: 0.2em;
 }
 
 .link-text:hover {
@@ -42,17 +43,16 @@ header {
 }
 
 .link-text {
-    font-size: 1.5rem;
+    font-size: 1.5em;
     text-decoration: none;
     color: #202020;
-    border-radius: 0.5rem;
+    border-radius: 0.5em;
 }
 
 .contact-me {
-	border-radius: 30rem;
+	border-radius: 30em;
 	margin: 0 auto;
-	height: 3rem;
-	width: 15rem;
+	width: 15em;
  	background: linear-gradient(45deg, #67d5eb, #32aec7);
   	background-size: 300% 300%;
   	animation-name: grad;
@@ -76,5 +76,5 @@ header {
 
 #contact-me {
 	vertical-align: middle;
-	line-height: 3rem;
+	line-height: 2em;
 }
